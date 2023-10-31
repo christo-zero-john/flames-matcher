@@ -43,6 +43,8 @@
   font-family: "Manrope", sans-serif;
 }
 
+
+
 img {
   width: 20rem;
   margin: auto;
@@ -110,6 +112,7 @@ img {
   font-weight: 500;
   cursor: pointer;
   box-shadow: 0 0.5rem 1rem rgba(238, 178, 14, 0.1);
+  transition: all 0.3s;
 }
 
 #submit-button:hover {
@@ -200,12 +203,21 @@ img {
   font-size: 1.5rem;
 }
 
+.content-div{
+  background-color: #f9f9cb;
+  border-radius: 10px;
+}
+
 @media only screen and (max-width: 600px) {
   .footer a img {
     margin-left: 14px;
   }
   .footer .social_container {
     gap: 8px;
+  }
+  .content-div{
+    border: 0;
+    background-color: transparent;
   }
 }
 
@@ -216,8 +228,10 @@ img {
 }
 
 .disclaimer {
-  font-size: 0.75rem;
+  font-size: 1rem;
   text-align: center;
   color: #383838;
   margin-top: 1rem;
 }
+
+
