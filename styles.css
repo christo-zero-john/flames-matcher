@@ -1,3 +1,42 @@
+/* Imports */
+@font-face {
+  font-family: 'merchandise';
+  src: url(assets/fonts/Merchandise-X31Za.ttf);
+}
+
+@font-face {
+  font-family: 'bistern';
+  src: url(assets/fonts/Bisterndemo-PKlBZ.otf);
+}
+
+@font-face {
+  font-family: 'hemera';
+  src: url(assets/fonts/HemeraIiDemoRegular-ZY73.ttf);
+}
+
+@font-face {
+  font-family: 'kickd';
+  src: url(assets/fonts/KickedDisplayDemo-1GrR2.ttf);
+}
+
+/* fonts */
+.f-merchandise{
+  font-family: 'merchandise', sans-serif
+}
+
+.f-bistern{
+  font-family: 'bistern', serif
+}
+
+.f-hemera{
+  font-family: 'hemera', sans-serif;
+}
+
+.f-kickd{
+  font-family: 'kickd', sans-serif;
+  font-weight: 500;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -40,6 +79,7 @@ img {
   display: flex;
   flex-direction: column;
   margin: 0.5rem;
+  font-family: bistern;
 }
 
 .input_box label {
@@ -103,17 +143,20 @@ img {
   color: #d06f03;
   text-align: center;
   margin-bottom: 1rem;
+  background-color: #efefb6;
 }
 
 .description {
   max-width: 35rem;
   text-align: center;
+  letter-spacing: 0.1rem;
 }
 
 .full_form {
   text-align: center;
   color: #383838;
   margin-bottom: 2rem;
+  font-weight: 200;
 }
 
 .footer {
