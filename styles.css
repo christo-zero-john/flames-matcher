@@ -44,7 +44,6 @@
 }
 
 
-
 img {
   width: 20rem;
   margin: auto;
@@ -103,9 +102,7 @@ img {
 }
 
 #submit-button {
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
+  
   background-color: #d06f03;
   color: #ffffcd;
   font-size: 1.25rem;
@@ -117,6 +114,7 @@ img {
 
 #submit-button:hover {
   background-color: #e2a500;
+  color: #000;
 }
 
 .share-button {
@@ -219,6 +217,9 @@ img {
     border: 0;
     background-color: transparent;
   }
+  .disclaimer{
+    font-size: 0.85rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -228,7 +229,6 @@ img {
 }
 
 .disclaimer {
-  font-size: 1rem;
   text-align: center;
   color: #383838;
   margin-top: 1rem;
