@@ -201,6 +201,13 @@ img {
   font-size: 1.5rem;
 }
 
+.disclaimer {
+  text-align: center;
+  color: #383838;
+  margin-top: 1rem;
+}
+
+
 .content-div{
   background-color: #f9f9cb;
   border-radius: 10px;
@@ -228,10 +235,5 @@ img {
   }
 }
 
-.disclaimer {
-  text-align: center;
-  color: #383838;
-  margin-top: 1rem;
-}
 
 
